@@ -2,6 +2,7 @@
 CONFIG_PACKAGE_luci-app-homeproxy=n
 CONFIG_PACKAGE_luci-app-passwall=n
 CONFIG_PACKAGE_luci-app-passwall2=y
+CONFIG_PACKAGE_xray-core=y
 #增加插件
 CONFIG_PACKAGE_luci-app-autoreboot=n
 CONFIG_PACKAGE_luci-app-gecoosac=n
@@ -123,6 +124,6 @@ CONFIG_PACKAGE_usbmuxd=n
 CONFIG_PACKAGE_usbutils=n
 CONFIG_PACKAGE_xz-utils=n
 #手动添加组件
-CONFIG_PACKAGE_ucode-mod-math=y
-CONFIG_PACKAGE_ucode-mod-html=y
-CONFIG_PACKAGE_ucode-mod-fs=y
+#CONFIG_PACKAGE_ucode-mod-math=y
+#CONFIG_PACKAGE_ucode-mod-html=y
+#CONFIG_PACKAGE_ucode-mod-fs=y
